@@ -1,0 +1,11 @@
+---
+BasedOnStyle: Google
+---
+Language: Proto
+DisableFormat: false
+ColumnLimit: 0
+IndentWidth: 2
+NamespaceIndentation: All
+BreakBeforeBraces: Allman
+---
+

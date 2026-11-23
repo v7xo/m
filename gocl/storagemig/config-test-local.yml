@@ -1,0 +1,4 @@
+root: true
+environment:
+  STORAGE_HOST: "127.0.0.1"
+  STORAGE_PORT: 11432

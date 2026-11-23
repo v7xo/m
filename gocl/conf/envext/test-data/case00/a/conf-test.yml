@@ -1,0 +1,3 @@
+root: true
+environment:
+  COMMONLIB_GO_TEST_VAR7: "0123456789"

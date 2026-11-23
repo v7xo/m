@@ -1,0 +1,3 @@
+root: false
+environment:
+  COMMONLIB_GO_TEST_VAR5: "ABC"

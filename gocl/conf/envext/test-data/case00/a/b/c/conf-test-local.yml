@@ -1,0 +1,9 @@
+root: false
+environment:
+  COMMONLIB_GO_TEST_VAR1: "ABC"
+  COMMONLIB_GO_TEST_VAR2: |
+    Line1_local
+    Line2_local
+
+    Line4_local
+  COMMONLIB_GO_TEST_VAR3: ""

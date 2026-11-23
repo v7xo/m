@@ -1,0 +1,4 @@
+root: true
+environment:
+  LOG_ATTR_INCL: "message,error,err,date_time,log_scope,config_variant,log_origin,access_log,rpc_method"
+  LOG_LEVEL: "trace"

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package v7xo.protobuf;
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/pbt/types";
+
+// Кастомная ошибка gRPC
+message Error
+{
+  // Кастомный код ошибки
+  string custom_code = 1;
+}

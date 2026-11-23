@@ -1,0 +1,17 @@
+root: true
+environment:
+  LOG_ATTR_INCL: "message,error,err,date_time,log_scope,config_variant,log_origin,access_log,rpc_method"
+  LOG_LEVEL: "trace"
+  #
+  KAFKA_CLIENT_BROKERS: "kafka:9094"
+  KAFKA_CLIENT_TLS_CA_CERT_PATH: "?"
+  KAFKA_CLIENT_TLS_CERT_KEY_PATH: "?"
+  KAFKA_CLIENT_TLS_CERT_PATH: "?"
+  KAFKA_CLIENT_TLS_INSECURE: true
+  KAFKA_CLIENT_USE_TLS: false
+  PRODUCER_BROKERS: "kafka:9094"
+  PRODUCER_TLS_CA_CERT_PATH: "?"
+  PRODUCER_TLS_CERT_KEY_PATH: "?"
+  PRODUCER_TLS_CERT_PATH: "?"
+  PRODUCER_TLS_INSECURE: true
+  PRODUCER_USE_TLS: false

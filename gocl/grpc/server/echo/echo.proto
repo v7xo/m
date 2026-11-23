@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package v7xo.echo;
+
+import "v7xo/protobuf/echo.proto";
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/grpc/server/echo";
+
+// ************************************************************************
+// ************************************************************************
+
+service EchoService {
+  rpc EchoV1(v7xo.protobuf.EchoV1Request) returns (v7xo.protobuf.EchoV1Response);
+}

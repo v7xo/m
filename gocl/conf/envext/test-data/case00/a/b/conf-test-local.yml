@@ -1,0 +1,4 @@
+root: true
+environment:
+  COMMONLIB_GO_TEST_VAR1: "XYZ"
+  COMMONLIB_GO_TEST_VAR4: "ABC"

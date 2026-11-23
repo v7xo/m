@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package v7xo.protobuf;
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/pbt/types";
+
+// параметры эхо-запроса.
+//
+message EchoV1Request
+{
+  // любой текст, ожидаемый в ответе запроса.
+  //
+  string text = 1;
+}
+
+// результат эхо-запроса.
+//
+message EchoV1Response
+{
+  // текст, указанный в исходном запросе.
+  //
+  string reply_text = 1;
+  // строка идентификации приложения (команды) как клиента.
+  //
+  string reply_client_id_long = 2;
+  // информация о сборке приложения.
+  //
+  string reply_build_info = 3;
+}

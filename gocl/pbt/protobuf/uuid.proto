@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package v7xo.protobuf;
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/pbt/types";
+
+// глобально уникальный идентификатор.
+//
+message UUIDV1
+{
+  oneof val_oneof
+  {
+    // 16 байт, представляющие значение идентификатора.
+    //
+    bytes bin = 1;
+    // шестнадцатиричное представление идентификатора.
+    // допускается одна из форм:
+    //    xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    //    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    //
+    string hex = 2;
+  }
+}

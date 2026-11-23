@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package v7xo.protobuf;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/pbt/types";
+
+// штамп времени.
+//
+message TimestampV1
+{
+  oneof val_oneof
+  {
+    // нативный формат google.protobuf.Timestamp.
+    //
+    google.protobuf.Timestamp unix = 1;
+    // формат ISO-8601/RFC-3339;
+    //
+    string rfc3339 = 2;
+  }
+}

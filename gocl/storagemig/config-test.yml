@@ -1,0 +1,17 @@
+root: true
+environment:
+  LOG_ATTR_INCL: "message,error,err,date_time,log_scope,config_variant,log_origin,access_log,rpc_method"
+  LOG_LEVEL: "trace"
+  #
+  STORAGE_DATABASE: "mh_go_colib"
+  STORAGE_MASTER_DATABASE: "postgres"
+  STORAGE_MASTER_PASSWORD: "postgres"
+  STORAGE_MASTER_USER: "postgres"
+  STORAGE_MIGRATION_DEPLOY_JOB_ID: "job-id-00"
+  STORAGE_MIGRATION_META_INFO_DEPLOY_TABLE_NAME: "deploy"
+  STORAGE_MIGRATION_META_INFO_SCHEMA_NAME: "__migrations"
+  STORAGE_MIGRATION_META_INFO_VERSION_TABLE_NAME: "version"
+  STORAGE_PASSWORD: "postgres"
+  STORAGE_POOL_ENABLED: "false"
+  STORAGE_TYPE: "pg"
+  STORAGE_USER: "postgres"

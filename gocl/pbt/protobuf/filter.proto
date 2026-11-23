@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package v7xo.protobuf;
+
+option go_package = "rn.m.vo7.io/vo7io/m/gocl/pbt/types";
+
+// Параметры фильтра по числовому идентификатору.
+message FilterByID
+{
+  // Значения.
+  repeated int64 items = 1;
+}
+
+// Параметры фильтра по идентификационному имени.
+message FilterByNameID
+{
+  // Значения.
+  repeated string items = 1;
+}

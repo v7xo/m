@@ -1,0 +1,5 @@
+root: true
+
+environment:
+  KAFKA_CLIENT_BROKERS: "127.0.0.1:9094"
+  PRODUCER_BROKERS: "127.0.0.1:9094"

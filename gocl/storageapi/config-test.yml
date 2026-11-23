@@ -1,0 +1,12 @@
+root: true
+environment:
+  LOG_ATTR_INCL: "message,error,err,date_time,log_scope,config_variant,log_origin,access_log,rpc_method"
+  LOG_LEVEL: "trace"
+  STORAGE_DATABASE: "postgres"
+  STORAGE_MASTER_DATABASE: "postgres"
+  STORAGE_MASTER_PASSWORD: "postgres"
+  STORAGE_MASTER_USER: "postgres"
+  STORAGE_PASSWORD: "postgres"
+  STORAGE_POOL_ENABLED: "false"
+  STORAGE_TYPE: "pg"
+  STORAGE_USER: "postgres"
